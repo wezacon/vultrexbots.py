@@ -5,7 +5,7 @@ with open("README.md", "r") as stream:
 
 setup(
     name = 'DBSL.py',
-    version = '0.0.4',
+    version = '0.0.5',
     url = 'https://github.com/wezacon/DBSL.py',
     download_url = 'https://github.com/wezacon/DBSL.py/tarball/master',
     license = 'MIT',
