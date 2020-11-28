@@ -2,7 +2,7 @@ __title__ = 'DBSL.py'
 __author__ = 'Team Wezacon'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2020-2020 Wezacon'
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 from .client import Client
 from .lib.util import objects, exceptions
