@@ -29,3 +29,6 @@ class Server:
         except (KeyError, TypeError): self.userCount: int = -1
         try: self.bumpCount: int = data["bumps"]
         except (KeyError, TypeError): self.bumpCount: int = -1
+
+        try: self.owner: str = data["owner"]
+        except (KeyError, TypeError): self.owner: str = "Undefined"
