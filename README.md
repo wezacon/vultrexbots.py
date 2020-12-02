@@ -1,6 +1,11 @@
 # vultrexbots.py
 ##### **DISCLAIMER!** This is an unofficial package!
 
+Install:
+``
+pip install vultrexbots.py
+``
+
 ```py
 import vultrexbots
 
