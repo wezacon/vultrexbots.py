@@ -8,8 +8,8 @@ class LibraryUpdateAvailable(Exception):
 
 
 def CheckException(data):
-    errorCode: int = data["code"]
-    errorMessage: str = data["message"]
+    errorCode: str = data["error"]
+    errorMessage: str = data["response"]
 
-    if errorCode == 404: raise NotFound(errorMessage)
+    if errorCode != "true": raise NotFound(errorMessage)
     else: raise Exception(errorMessage)

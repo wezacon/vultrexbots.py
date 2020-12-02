@@ -4,21 +4,20 @@ with open("README.md", "r") as stream:
     long_description = stream.read()
 
 setup(
-    name = 'DBSL.py',
-    version = '0.0.7',
-    url = 'https://github.com/wezacon/DBSL.py',
-    download_url = 'https://github.com/wezacon/DBSL.py/tarball/master',
-    license = 'MIT',
+    name = 'vultrexbots.py',
+    version = '0.0.1',
+    url = 'https://github.com/wezacon/vultrexbots.py',
+    download_url = 'https://github.com/wezacon/vultrexbots.py/tarball/master',
+    license = 'AGPL',
     author = 'Team Wezacon',
     author_email = 'wezacon.com@gmail.com',
-    description = 'API wrapper for DBSL',
+    description = 'API wrapper for vultrexbots',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
     keywords = [
-        'DBSL',
-        'DBSL-py',
-        'wezacon',
-        'official'
+        'vultrex',
+        'bots-py',
+        'wezacon'
     ],
     install_requires = [
         'setuptools',
