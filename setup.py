@@ -5,7 +5,7 @@ with open("README.md", "r") as stream:
 
 setup(
     name = 'vultrexbots.py',
-    version = '0.0.1',
+    version = '0.0.3',
     url = 'https://github.com/wezacon/vultrexbots.py',
     download_url = 'https://github.com/wezacon/vultrexbots.py/tarball/master',
     license = 'AGPL',
